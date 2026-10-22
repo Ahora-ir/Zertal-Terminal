@@ -17,27 +17,27 @@ Installation Guide
 
 Follow these steps in order. Copy and run each command separately in Termux.
 
-Step 1 — Update Termux
+⚠️ Step 1 — Update Termux
 
-pkg update -y && pkg upgrade -y
+1️⃣➡️ pkg update -y && pkg upgrade -y
 
-Step 2 — Install required packages
+⚠️ Step 2 — Install required packages
 
-pkg install -y git curl fish coreutils procps
+2️⃣➡️ pkg install -y git curl fish coreutils procps
 
-Step 3 — Download Zertal Terminal
+⚠️ Step 3 — Download Zertal Terminal
 
-git clone https://github.com/Ahora-ir/Zertal-Terminal.git
+3️⃣➡️ git clone https://github.com/Ahora-ir/Zertal-Terminal.git
 
-Step 4 — Enter the project directory
+⚠️ Step 4 — Enter the project directory
 
-cd Zertal-Terminal
+4️⃣➡️ cd Zertal-Terminal
 
-Step 5 — Run the installer
+⚠️ Step 5 — Run the installer
 
-bash install.sh
+5️⃣➡️ bash install.sh
 
-Step 6 — Restart Termux
+⚠️ Step 6 — Restart Termux
 
 Close Termux completely and open it again.
 
@@ -73,7 +73,8 @@ Developer
 
 AHORA-IR
 
-GitHub: "Ahora-ir" (https://github.com/Ahora-ir)
+GitHub: "Ahora-ir" 
+(https://github.com/Ahora-ir)
 
 Telegram: "@iD_Zertal" (https://t.me/iD_Zertal)
 
@@ -81,3 +82,4 @@ Rubika: "@Ahura_Zertal"
 
 
 ZERTAL TERMINAL — Your terminal. Your style.
+پاینده باد ایران
