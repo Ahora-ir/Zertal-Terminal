@@ -1,6 +1,6 @@
-ZERTAL TERMINAL
+#ZERTAL TERMINAL
 
-Custom terminal environment for Termux by Ahora-ir
+!Custom terminal environment for Termux by Ahora-ir
 
 A personalized Fish shell with a custom logo, colored prompt, battery status, memory and storage information.
 
