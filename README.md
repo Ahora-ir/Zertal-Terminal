@@ -1,48 +1,83 @@
-Zertal Terminal
+ZERTAL TERMINAL
 
-A custom terminal environment for Termux by Ahora-ir
+Custom terminal environment for Termux by Ahora-ir
 
-Zertal Terminal is a personalized Fish shell environment for Termux, featuring a custom ASCII logo, colored prompt, device information, and automatic startup.
+A personalized Fish shell with a custom logo, colored prompt, battery status, memory and storage information.
 
 Features
 
-- Custom Zertal ASCII logo
+- Custom ZERTAL logo
 - Colored terminal prompt
-- Live battery percentage
+- Current time display
+- Battery percentage
 - Memory and storage information
-- Current time in the prompt
-- Automatic startup in Termux
-- Installation directly from GitHub
+- Automatic startup
 
-Installation
+Installation Guide
 
-Open Termux and run:
+Follow these steps in order. Copy and run each command separately in Termux.
 
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Ahora-ir/Zertal-Terminal/main/install.sh)"
+Step 1 — Update Termux
 
-Repository
+pkg update -y && pkg upgrade -y
 
-GitHub: https://github.com/Ahora-ir/Zertal-Terminal
+Step 2 — Install required packages
 
-Requirements
+pkg install -y git curl fish coreutils procps
 
-- Android with Termux
-- Internet connection
-- Fish shell (installed by the installer if needed)
+Step 3 — Download Zertal Terminal
+
+git clone https://github.com/Ahora-ir/Zertal-Terminal.git
+
+Step 4 — Enter the project directory
+
+cd Zertal-Terminal
+
+Step 5 — Run the installer
+
+bash install.sh
+
+Step 6 — Restart Termux
+
+Close Termux completely and open it again.
+
+How It Works
+
+Logo: Displays the ZERTAL ASCII logo when Fish starts.
+
+Prompt: Displays the current directory and time.
+
+Battery: Shows battery percentage when the required Android API support is available.
+
+Memory: Displays used and total system memory.
+
+Storage: Displays used and total storage for the home filesystem.
+
+Automatic startup: Starts Fish automatically when a new Termux session opens.
+
+Troubleshooting
+
+Git clone fails: Check your internet connection and retry.
+
+Battery percentage is missing: Check Termux:API support and whether the companion Android app is installed.
+
+Zertal does not start automatically: Check your Bash startup configuration and verify that installation completed successfully.
+
+Project Files
+
+File| Description
+"install.sh"| Installer
+"zertal_terminal.fish"| Terminal appearance and prompt
 
 Developer
 
-Ahora-ir
+AHORA-IR
+
+GitHub: "Ahora-ir" (https://github.com/Ahora-ir)
 
 Telegram: "@iD_Zertal" (https://t.me/iD_Zertal)
 
-Rubika: @Ahura_Zertal
-
-License
-
-Copyright © Ahora-ir. All rights reserved.
-
-This notice expresses the author's ownership claim. Reuse and redistribution permissions should be defined separately in a formal license.
+Rubika: "@Ahura_Zertal"
 
 
-Zertal Terminal — Your terminal, your style.
+ZERTAL TERMINAL — Your terminal. Your style.
